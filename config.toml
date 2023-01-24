@@ -28,7 +28,7 @@ weight = 4
 
 [params]
   logo = "logo.png"
-  colortheme = "custom" =
+  colortheme = "custom"
   rss = true 
   showAllPostsArchive = false
 
