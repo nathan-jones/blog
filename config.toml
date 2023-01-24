@@ -22,7 +22,7 @@ weight = 3
 
 [[menu.main]]
 name = "Github"
-url = "/about"
+url = "https://github.com/nathan-jones/blog"
 weight = 4
 
 
