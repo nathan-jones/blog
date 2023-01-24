@@ -1,0 +1,45 @@
+baseURL = 'https://nathanjones.io'
+languageCode = 'en-gb'
+title = 'Nathan Jones Notes'
+theme = "cactus"
+copyright = "Nathan Jones"
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "Github"
+url = "/about"
+weight = 4
+
+
+[params]
+  logo = "logo.png"
+  colortheme = "custom" =
+  rss = true 
+  showAllPostsArchive = false
+
+  # Home page settings
+  description = "Collection of notes"
+  mainSection = "posts"
+  mainSectionTitle = "Posts"
+  postsOnHomePage = 10
+  tagsOverview = true 
+
+
+[markup]
+  [markup.highlight]
+    style = 'nord'
